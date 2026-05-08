@@ -10,6 +10,8 @@ Das System nutzt einen **Late-Fusion-Ansatz**:
 2. **Gestik- & Haltungsanalyse (YOLO):** Ein YOLO-basiertes Modell erfasst parallel die Körperhaltung und Handgesten.
 3. **Late-Fusion Classification:** Die Outputs beider Netzwerke werden in den späten Schichten zusammengeführt, um eine ganzheitliche Prognose des emotionalen und gestischen Zustands zu treffen.
 
+**Mehr infos zur projektumsetzung gibts in der [Roadmap](roadmap.md) nachzulesen.**
+
 ## Tech Stack
 * **Framework:** PyTorch
 * **Computer Vision:** OpenCV
